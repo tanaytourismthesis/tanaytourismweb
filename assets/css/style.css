@@ -1,0 +1,132 @@
+
+
+.navbar-brand {
+	color: #fff !important;
+}
+
+.alert_group .alert_title {
+	font-weight: bold;
+}
+
+.error {
+	color: red !important;
+}
+
+.error input, .error textarea {
+	border: solid thin red !important;
+	color: red !important;
+}
+
+.note {
+	font-size: 10px;
+}
+
+.align-right {
+	text-align: right !important;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#user_menu {
+	background: #fff !important;
+	color: #262626 !important;
+}
+
+.image_container {
+	position: relative;
+    overflow: hidden;
+	padding-top: 100%;
+}
+
+.image_container > img {
+	position: absolute;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.caption > * {
+	word-break: break-all;
+}
+
+.moreItems {
+	background: #0099cc !important;
+}
+
+.moreItems h3, .moreItems p:first-of-type {
+	background: #f0f0f5 !important;
+}
+
+#searchTable {
+	width: 100%;
+}
+
+#searchTable > tfoot td {
+	text-align: center;
+}
+
+.pagination {
+	width: 100%;
+	text-align: right;
+}
+
+footer {
+	background: #fff !important;
+}
+
+/* NavBar Collapse override */
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    
+}
+.form-signin {
+    width: 340px;
+    margin: 50px auto;
+}
+.formbody {
+margin-bottom: 20px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
